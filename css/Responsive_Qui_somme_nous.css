@@ -1,0 +1,103 @@
+@media (min-width: 770px) and (max-width: 1000px) {
+    /* Header */
+    .header__nav {
+        padding: 10px 20px;
+    }
+
+    .nav__menu__container {
+        gap: 30px;
+    }
+
+    .nav__menu-items {
+        font-size: 14px;
+    }
+    .main__img {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .carte {
+        width: 100%;
+        height: 400px;
+    }
+
+}
+
+
+
+
+
+
+
+
+@media (max-width: 770px) {
+    .nav__Logo-img {
+        width: 75px;
+    }
+
+    .nav__menu-items {
+        display: none;
+    }
+
+    .nav__mobile-menu {
+        display: block;
+        cursor: pointer;
+    }
+    .nav__Logo-img {
+        width: 60%;
+        height: auto;
+    }
+    .header__nav {
+        justify-content: space-between;
+    }
+
+
+    .footer__container {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .footer__horaire {
+        text-align: center;
+    }
+
+    .footer__contact {
+        text-align: center;
+    }
+
+    .footer__Adresse {
+        text-align: center;
+    }
+
+    .footer__info {
+        text-align: center;
+    }
+
+    .footer__socials {
+        justify-content: center;
+    }
+
+    .main__container {
+        padding: 10px 5px;
+    }
+
+    .main__hero {
+        padding: 10px;
+        gap: 16px;
+    }
+
+    .main__hero-title {
+        font-size: calc(var(--headline-font-size) - 10px);
+    }
+
+    .main__img {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .carte {
+        width: 100%;
+        height: 300px;
+    }
+}
