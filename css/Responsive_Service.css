@@ -59,6 +59,9 @@
         width: 100%;
         padding: 0;
     }
+    .main__hero-title {
+        font-size: 35px;
+    }
     .main__features {
         grid-template-columns: 1fr;
     }

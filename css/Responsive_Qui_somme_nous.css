@@ -88,7 +88,7 @@
     }
 
     .main__hero-title {
-        font-size: calc(var(--headline-font-size) - 10px);
+        font-size: 35px;
     }
 
     .main__img {
