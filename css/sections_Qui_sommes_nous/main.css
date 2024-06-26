@@ -33,7 +33,7 @@
 }
 
 .main__hero-title {
-    font-weight: var(--headline-font-weight);
+    font-weight: 35px;
     font-size: var(--headline-font-size);
 }
 

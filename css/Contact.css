@@ -27,6 +27,9 @@
 
 
 
+
+
+
 @media (max-width: 770px) {
     .nav__Logo-img {
         width: 75px;
@@ -85,7 +88,7 @@
     }
 
     .main__hero-title {
-        font-size: 32px;
+        font-size: 35px;
     }
 
     .main__img {
