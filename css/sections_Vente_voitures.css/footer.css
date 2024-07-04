@@ -77,3 +77,6 @@
     width: 24px;
     height: 24px;
 }
+.Information h2,a {
+    text-align: center;
+}
