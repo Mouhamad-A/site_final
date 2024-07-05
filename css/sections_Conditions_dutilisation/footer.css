@@ -1,53 +1,83 @@
-.footer {
-    background-color: #333;
-    color: #fff;
+#footer {
+    width: 100%;
     padding: 20px 0;
-    text-align: center;
-    margin-top: 80px;
-}
-
-.footer .container {
+    color: rgb(var(--secondary-color));
+    background-color: rgb(var(--primary-color));
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
-    max-width: 1200px;
-    margin: 0 auto;
 }
 
-.footer .col {
-    flex: 1;
-    margin: 10px;
-    min-width: 200px;
+.footer__container {
+    width: 100%;
+    max-width: 1120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+    padding: 0 10px;
+    flex-wrap: wrap; 
 }
 
-.footer .col h3 {
-    border-bottom: 1px solid #444;
-    padding-bottom: 10px;
-    margin-bottom: 15px;
+.footer__horaire, .footer__contact, .footer__info {
+    margin-bottom: 20px; /* Add some space between elements */
 }
 
-.footer .col p,
-.footer .col a {
-    margin: 5px 0;
-    color: #bbb;
-    text-decoration: none;
+.footer__horaire {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.footer .col a:hover {
-    text-decoration: underline;
+.footer__horaire-item {
+    font-size: var(--subheadline-font-size);
 }
 
-.social-icons {
-    margin-top: 20px;
+.footer__info {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    align-items: center; /* Center elements in the flex container */
 }
 
-.social-icons a {
-    margin: 0 10px;
-    color: #bbb;
-    font-size: 24px;
-    text-decoration: none;
+.footer__logo {
+    display: flex;
+    align-items: center;
+    gap: 14px;
 }
 
-.social-icons a:hover {
-    color: #fff;
+.footer__logo-img {
+    width: 100px;
+    height: auto;
+}
+
+.footer__contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer__Adresse {
+    text-align: center;
+}
+
+.footer__socials {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer__socials-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer__socials-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.Information h2,a {
+    text-align: center;
 }

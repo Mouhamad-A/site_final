@@ -64,10 +64,6 @@ a {
     color: rgb(var(--red-color));
 }
 
-.nav__menu-items:first-child {
-    background-color: rgb(var(--red-color));
-    color: rgb(var(--secondary-color));
-}
 
 .nav__menu-items:hover {
     background-color: rgb(var(--red-color));
@@ -130,10 +126,7 @@ a {
     gap: 10px;
 }
 
-.mobile-p:first-child {
-    background-color: rgb(var(--red-color));
-    color: rgb(var(--secondary-color));
-}
+
 
 .mobile-p:hover {
     background-color: rgb(var(--red-color));
