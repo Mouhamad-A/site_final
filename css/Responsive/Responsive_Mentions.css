@@ -1,0 +1,190 @@
+@media (min-width: 770px) and (max-width: 1000px) {
+    /* Header */
+    .header__nav {
+        padding: 10px 20px;
+    }
+
+    .nav__menu__container {
+        gap: 30px;
+    }
+
+    .nav__menu-items {
+        font-size: 14px;
+    }
+
+    .style-experience {
+        color: rgba(var(--red-color));
+        font-size: 43px;
+    }
+    /* Main Section */
+    .main__hero-title {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .icon-img {
+        width: 30px;
+    }
+}
+
+
+@media (min-width: 481px) and (max-width: 769px) {
+    /* Header */
+    .nav__Logo-img {
+        width: 75px;
+    }
+
+    .nav__menu-items {
+        display: none;
+    }
+
+    .nav__mobile-menu {
+        display: block;
+        cursor: pointer;
+    }
+    .nav__Logo-img {
+        width: 60%;
+        height: auto;
+    }
+    .header__nav {
+        justify-content: space-between;
+    }
+
+    .main__hero-title {
+        font-size: 24px;
+    }
+    .footer{
+        height: auto;
+    }
+   
+
+    .footer__container {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .footer__horaire {
+        text-align: center;
+    }
+
+    .footer__contact {
+        text-align: center;
+    }
+
+    .footer__Adresse {
+        text-align: center;
+    }
+
+    .footer__info {
+        text-align: center;
+    }
+
+    .footer__socials {
+        justify-content: center;
+    }
+
+    .style-experience {
+        color: rgba(var(--red-color));
+        font-size: 30px;
+        text-align: start;
+    }
+    .main__hero-title {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .main__bannière {
+        
+        width:90%;
+        gap: 20px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .main__bannière-h1 {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .nav__Logo-img {
+        width: 60%;
+        height: auto;
+    }
+  
+}
+
+@media (max-width: 480px) {
+    .nav__Logo-img {
+        width: 75px;
+    }
+    .main__hero-title {
+        font-size: 30px;
+    }
+    .nav__menu-items {
+        display: none;
+    }
+
+    .nav__mobile-menu {
+        display: block;
+    }
+
+    .header__nav {
+        justify-content: space-between;
+    }
+
+    .footer{
+        height: auto;
+    }
+   
+
+    .footer__container {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .footer__horaire {
+        text-align: center;
+    }
+
+    .footer__contact {
+        text-align: center;
+    }
+
+    .footer__Adresse {
+        text-align: center;
+    }
+
+    .footer__info {
+        text-align: center;
+    }
+
+    .footer__socials {
+        justify-content: center;
+    }
+    .main__bannière {
+        
+        width:80%;
+        gap: 20px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .main__bannière-h1 {
+        text-align: center;
+        font-size: 8px;
+    }
+    .style-experience {
+        color: rgba(var(--red-color));
+        font-size: 12px;
+        text-align: start;
+    }
+    .nav__Logo-img {
+        width: 60%;
+        height: auto;
+    }
+    
+}
+
+
+

@@ -5,7 +5,7 @@
 @import url('./sections_Mentions_légales/header.css');
 @import url('./sections_Mentions_légales/main.css');
 @import url('./sections_Mentions_légales/footer.css');
-@import url('./Responsive_Mentions.css');
+@import url('./Responsive/Responsive_Mentions.css');
 
 :root{
     --font-family:"Poppins",sans-serif;
