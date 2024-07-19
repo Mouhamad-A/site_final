@@ -1,7 +1,7 @@
 .main {
     display: flex;
     justify-content: center;
-    max-width: 1000px;
+    max-width: 1100px;
     margin: 0 auto;
     padding: 20px;
     background-color: #fff;
@@ -30,7 +30,6 @@
     background-color: rgba(var(--red-color), 0.7);
     padding: 15px;
     border-radius: 30px 0 30px 0;
-    text-align: center;
 }
 
 .main__hero-title {
@@ -38,19 +37,44 @@
     font-size: var(--headline-font-size);
 }
 
-.carte {
-
-    width: 100%;
+.main__img {
+    width: 600px;
     height: auto;
+    object-fit: cover;
+}
+
+.main__features {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main__feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2px;
+    gap: 20px;
+    border-radius: 10px;
+    color: rgb(var(--primary-color));
+}
+
+.bienvenue {
+    color: rgb(var(--red-color));
+}
+
+.main__feature-img {
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
 }
 
 section {
     margin-bottom: 30px;
-    width: 100%;
 }
 
 .main h2 {
-    color: rgba(var(--red-color));
+    color: rgb(var(--red-color));
     font-size: 1.8em;
     border-bottom: 2px solid #ccc;
     padding-bottom: 5px;
@@ -73,27 +97,25 @@ section {
     margin-bottom: 10px;
 }
 
-.main__socials {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    flex-wrap: wrap;
+blockquote {
+    font-style: italic;
+    color: #777;
+    padding: 10px;
+    border-left: 3px solid #ccc;
+    margin: 0;
 }
 
-.main__socials-link {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin: 20px 10px;
-
+address {
+    font-style: normal;
+    margin-bottom: 15px;
 }
 
-.main__socials-icon {
-    width: 34px;
-    height: 34px;
+address a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-h3 {
-    margin: 10px;
+address a:hover {
+    text-decoration: underline;
 }

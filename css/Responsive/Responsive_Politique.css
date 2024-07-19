@@ -1,21 +1,66 @@
-@media (min-width: 770px) and (max-width: 1000px) {
-    /* Header */
+@media (min-width: 911px) and (max-width: 1300px) {
+
+    .header {
+        width: 100%;
+        min-height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        background-color: rgb(var(--secondary-color));
+        border-bottom: 2px solid rgba(var(--red-color));
+        list-style-type: none;
+    }
+
+
     .header__nav {
-        padding: 10px 20px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5px;
+    }
+
+    .nav__Logo {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        padding: 10px;
+        gap: 14px;
+    }
+
+    .nav__Logo-img {
+        width: 200px;
+        height: auto;
+    }
+
+    .nav__menu {
+        display: flex;
+        justify-content: center;
     }
 
     .nav__menu__container {
-        gap: 30px;
+        width: 100%;
+        display: flex;
+        justify-content: end;
+        list-style-type: none;
+        gap: 10px;
     }
 
     .nav__menu-items {
-        font-size: 14px;
+
+        font-size: var(--body-font-size);
+        border: none;
+        border-radius: 10px;
+        transition: all 300ms;
+        cursor: pointer;
+        color: rgb(var(--red-color));
     }
 
     .style-experience {
         color: rgba(var(--red-color));
         font-size: 43px;
     }
+
     /* Main Section */
     .main__hero-title {
         font-size: 28px;
@@ -27,8 +72,41 @@
     }
 }
 
+@media (min-width: 900px) and (max-width: 945px) {
+    .footer {
+        height: auto;
+    }
 
-@media (min-width: 481px) and (max-width: 769px) {
+
+    .footer__container {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .footer__horaire {
+        text-align: center;
+    }
+
+    .footer__contact {
+        text-align: center;
+    }
+
+    .footer__Adresse {
+        text-align: center;
+    }
+
+    .footer__info {
+        text-align: center;
+    }
+
+    .footer__socials {
+        justify-content: center;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 910px) {
+
     /* Header */
     .nav__Logo-img {
         width: 75px;
@@ -42,10 +120,12 @@
         display: block;
         cursor: pointer;
     }
+
     .nav__Logo-img {
         width: 60%;
         height: auto;
     }
+
     .header__nav {
         justify-content: space-between;
     }
@@ -53,10 +133,11 @@
     .main__hero-title {
         font-size: 24px;
     }
-    .footer{
+
+    .footer {
         height: auto;
     }
-   
+
 
     .footer__container {
         flex-direction: column;
@@ -89,18 +170,20 @@
         font-size: 30px;
         text-align: start;
     }
+
     .main__hero-title {
         font-size: 28px;
         text-align: center;
     }
 
     .main__bannière {
-        
-        width:90%;
+
+        width: 90%;
         gap: 20px;
         justify-content: space-between;
         align-items: center;
     }
+
     .main__bannière-h1 {
         text-align: center;
         font-size: 15px;
@@ -110,16 +193,18 @@
         width: 60%;
         height: auto;
     }
-  
+
 }
 
 @media (max-width: 480px) {
     .nav__Logo-img {
         width: 75px;
     }
+
     .main__hero-title {
         font-size: 30px;
     }
+
     .nav__menu-items {
         display: none;
     }
@@ -132,10 +217,10 @@
         justify-content: space-between;
     }
 
-    .footer{
+    .footer {
         height: auto;
     }
-   
+
 
     .footer__container {
         flex-direction: column;
@@ -162,9 +247,10 @@
     .footer__socials {
         justify-content: center;
     }
+
     .main__bannière {
-        
-        width:80%;
+
+        width: 80%;
         gap: 20px;
         justify-content: space-between;
         align-items: center;
@@ -174,17 +260,16 @@
         text-align: center;
         font-size: 8px;
     }
+
     .style-experience {
         color: rgba(var(--red-color));
         font-size: 12px;
         text-align: start;
     }
+
     .nav__Logo-img {
         width: 60%;
         height: auto;
     }
-    
+
 }
-
-
-
