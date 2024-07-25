@@ -358,4 +358,46 @@
     .icon-img {
         width: 25px;
     }
+
+
+    .main__agrements {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 7px;
+        color: rgba(var(--primary-color));
+        padding: 10px;
+        background-color: #F5F5F5;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+    }
+
+    .main__agrements h2 {
+        font-size: 12px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #8B0000;
+    }
+
+    .main__agrements p {
+        margin-bottom: 20px;
+        line-height: 1.6;
+    }
+
+    .assurance {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .img_assurance {
+        width: 60px;
+        height: auto;
+        border-radius: 8px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
 }

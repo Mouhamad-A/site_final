@@ -4,21 +4,24 @@
     color: rgb(var(--secondary-color));
     background-color: rgb(var(--primary-color));
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .footer__container {
-    width: 100%;
-    max-width: 1120px;
+    width: 80%;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start; 
+    align-items: flex-start;
     padding: 0 10px;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
 }
 
-.footer__horaire, .footer__contact, .footer__info {
-    margin-bottom: 20px; /* Add some space between elements */
+.footer__horaire,
+.footer__contact,
+.footer__info {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer__horaire {
@@ -35,7 +38,7 @@
     display: flex;
     flex-direction: column;
     gap: 22px;
-    align-items: center; /* Center elements in the flex container */
+    align-items: center;
 }
 
 .footer__logo {
@@ -78,6 +81,7 @@
     height: 24px;
 }
 
-.Information h2,a {
+.Information h2,
+a {
     text-align: center;
 }

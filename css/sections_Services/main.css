@@ -1,4 +1,4 @@
-.main{
+.main {
     display: flex;
     justify-content: center;
     max-width: 1100px;
@@ -9,45 +9,45 @@
     flex: 1;
 }
 
-.main__container{
+.main__container {
     width: 100%;
-    max-width: 1120px;  
+    max-width: 1120px;
     display: flex;
     flex-direction: column;
-    align-items:center;
+    align-items: center;
     justify-content: space-around;
     gap: 30px;
     padding: 20px 10px;
 }
 
-.main__hero{
+.main__hero {
     display: flex;
     flex-direction: column;
     gap: 24px;
     align-items: center;
     justify-content: center;
     color: rgb(var(--secondary-color));
-    background-color: rgb(var(--red-color),0.7);
+    background-color: rgb(var(--red-color), 0.7);
     padding: 15px;
     border-radius: 30px 0 30px 0;
 }
 
-.main__hero-title{
+.main__hero-title {
     font-weight: var(--headline-font-weight);
     font-size: var(--headline-font-size);
 }
 
 
 
-.main__features{
+.main__features {
     width: 100%;
-    display:flex;
+    display: flex;
     justify-content: space-around;
-    
-    
+
+
 }
 
-.main__feature{
+.main__feature {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -57,11 +57,11 @@
     color: rgb(var(--primary-color));
 }
 
-.bienvenue{
+.bienvenue {
     color: rgb(var(--red-color));
 }
 
-.main__feature-img{
+.main__feature-img {
     width: 250px;
     height: 200px;
     object-fit: cover;
@@ -93,6 +93,20 @@ section {
 
 .main li {
     margin-bottom: 10px;
+}
+
+.peugeot_208 {
+    width: 50%;
+    height: auto;
+    filter: brightness(1.4);
+
+
+}
+
+.voiture_peugeot {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
 }
 
 blockquote {
