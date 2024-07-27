@@ -263,6 +263,11 @@
         margin-left: 10px;
     }
 
+    .peugeot_208 {
+        width: 100%;
+        height: auto;
+    }
+
     .footer__container {
         flex-direction: column;
         align-items: center;
@@ -275,6 +280,7 @@
 
     .footer__contact {
         text-align: center;
+        font-size: 12px;
     }
 
     .footer__Adresse {

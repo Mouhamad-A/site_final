@@ -96,17 +96,14 @@ section {
 }
 
 .peugeot_208 {
-    width: 50%;
+    width: 40%;
     height: auto;
-    filter: brightness(1.4);
-
-
 }
 
 .voiture_peugeot {
     display: flex;
     justify-content: center;
-    padding-top: 30px;
+
 }
 
 blockquote {

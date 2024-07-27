@@ -300,6 +300,7 @@
 
     .footer__contact {
         text-align: center;
+        font-size: 12px;
     }
 
     .footer__Adresse {
@@ -395,7 +396,7 @@
     }
 
     .img_assurance {
-        width: 60px;
+        width: 30px;
         height: auto;
         border-radius: 8px;
         transition: transform 0.3s ease, box-shadow 0.3s ease;

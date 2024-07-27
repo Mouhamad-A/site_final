@@ -1,4 +1,4 @@
-@media (min-width: 911px) and (max-width: 1300px){
+@media (min-width: 911px) and (max-width: 1300px) {
 
     .header {
         width: 100%;
@@ -233,6 +233,7 @@
 
     .footer__contact {
         text-align: center;
+        font-size: 12px;
     }
 
     .footer__Adresse {
